@@ -5,7 +5,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 // https://vitepress.dev/reference/site-config
 export default withMermaid({
   lang: 'ca-ES',
-  title: 'UF10 - Fitxers',
+  title: 'UF11 - Interfícies gràfiques',
   description: 'Descripció',
   base: '/',
   outDir: './dist',
@@ -27,7 +27,7 @@ export default withMermaid({
     //['link', { rel: 'icon', type: 'image/png', href: '/img/logo.png' }]
   ],
   themeConfig: {
-    siteTitle: 'Fitxers',
+    siteTitle: 'Interfícies gràfiques',
     logo: '/img/logo.png',
     nav: [
       { text: '🏠 Inici', link: '/' },
