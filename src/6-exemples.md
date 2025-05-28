@@ -2,7 +2,7 @@
 
 Creació d’una finestra per a representar un rellotge. Podrem avançar i retrocedir hores, minuts i segons polsant botons.
 
-![Rellotge](uf11/rellotge.jpg)
+![Rellotge](/uf11/rellotge.jpg)
 
 ## Creació del projecte
 

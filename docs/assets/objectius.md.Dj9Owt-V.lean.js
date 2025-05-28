@@ -1,0 +1,1 @@
+import{_ as a,c as i,o as t,a0 as r}from"./chunks/framework.FGaEBVCr.js";const p=JSON.parse('{"title":"Objectius","description":"","frontmatter":{},"headers":[],"relativePath":"objectius.md","filePath":"objectius.md"}'),l={name:"objectius.md"};function n(s,e,o,c,d,u){return t(),i("div",null,e[0]||(e[0]=[r("",2)]))}const _=a(l,[["render",n]]);export{p as __pageData,_ as default};
