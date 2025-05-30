@@ -4,13 +4,7 @@
 
 Si obrim l'arxiu *FXMLDocument.fxml* (doble clic) se'ns obrirà Scene Builder on podrem, d'una manera gràfica, fer canvis sobre la interfície.
 
-<div style="display: flex; justify-content: center; gap: 0px;">
-  <div style="border: 6px solid rgb(240, 102, 61); max-height: 100%; width: 100%; text-align: center;">
-    <img src="/uf11/Scene_builder_editor.jpg" style="width: 100%; height: 100%;" alt="Imatge 3">
-  </div>
-</div>
-
----
+![Esquema d'herència](/uf11/Scene_builder_editor.jpg)
 
 ## 5.2. Secció Library
 
@@ -27,13 +21,8 @@ Si obrim l'arxiu *FXMLDocument.fxml* (doble clic) se'ns obrirà Scene Builder on
 
 </div>
 
-<div style="flex: 0.6; padding:10px; ">
+  ![Esquema d'herència](/uf11/panel_elements.jpg)
 
-<div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-    <img src="/uf11/panel_elements.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-  </div>
-
-</div>
 </div>
 
 <div style="display: flex; gap: 50px">
@@ -44,22 +33,17 @@ Si obrim l'arxiu *FXMLDocument.fxml* (doble clic) se'ns obrirà Scene Builder on
 
   Per defecte es crea un contenidor general de tipus **AnchorPane**, que són els que permeten col·locar elements de manera bastant lliure, ancorant els elements respecte a la posició d'uns altres.
 
-
 </div>
 
 <div style="flex: 0.8; padding:10px;">
 
-  <div style="margin-top: 70px;"> <!-- Aquest div fa que tot quede més baix -->
-  </div>
+<div style="margin-top: 90px;"> <!-- Aquest div fa que tot quede més baix -->
+</div>
 
-<div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-    <img src="/uf11/Scene_builder_editor_afegir_element.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-  </div>
+  ![Esquema d'herència](/uf11/Scene_builder_editor_afegir_element.jpg)
 
 </div>
 </div>
-
----
 
 ## 5.3. Secció Documents
 
@@ -75,14 +59,12 @@ Si obrim l'arxiu *FXMLDocument.fxml* (doble clic) se'ns obrirà Scene Builder on
 
 </div>
 
-<div style="flex: 0.6; padding:10px;">
+<div style="flex: 0.8; padding:10px;">
 
 <div style="margin-top: 90px;"> <!-- Aquest div fa que tot quede més baix -->
 </div>
 
-<div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-    <img src="/uf11/hierarchy.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-  </div>
+![Esquema d'herència](/uf11/hierarchy.jpg)
 
 </div>
 </div>
@@ -104,9 +86,7 @@ Si obrim l'arxiu *FXMLDocument.fxml* (doble clic) se'ns obrirà Scene Builder on
 <div style="margin-top: 0px;"> <!-- Aquest div fa que tot quede més baix -->
 </div>
 
-<div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-    <img src="/uf11/Controller.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-  </div>
+![Esquema d'herència](/uf11/Controller.jpg)
 
 </div>
 </div>
@@ -132,9 +112,8 @@ Si obrim l'arxiu *FXMLDocument.fxml* (doble clic) se'ns obrirà Scene Builder on
 <div style="margin-top: 0px;"> <!-- Aquest div fa que tot quede més baix -->
 </div>
 
-<div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-  <img src="/uf11/zona_disseny.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-</div>
+![Esquema d'herència](/uf11/zona_disseny.jpg)
+
 
 </div>
 </div>
@@ -160,9 +139,7 @@ Ací es podrà canviar, per exemple, el text d'un element, el seu color, tipus d
 <div style="margin-top: 0px;"> <!-- Aquest div fa que tot quede més baix -->
 </div>
 
-<div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-  <img src="/uf11/inspectorproperties.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-</div>
+![Esquema d'herència](/uf11/inspectorproperties.jpg)
 
 </div>
 </div>
@@ -177,14 +154,12 @@ En l'apartat Anchor Pane Constraints és podran definir els marges respecte al p
 
 </div>
 
-<div style="flex: 0.7; padding:10px;">
+<div style="flex: 0.8; padding:10px;">
 
 <div style="margin-top: 0px;"> <!-- Aquest div fa que tot quede més baix -->
 </div>
 
-<div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-  <img src="/uf11/isnpector_layout.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-</div>
+![Esquema d'herència](/uf11/isnpector_layout.jpg)
 
 </div>
 </div>
@@ -197,19 +172,15 @@ L'apartat **Code** permet configurar una part del codi. Es poden codificar els e
 
 </div>
 
-<div style="flex: 0.5; padding:10px;">
+<div style="flex: 0.7; padding:10px;">
 
 <div style="margin-top: 0px;"> <!-- Aquest div fa que tot quede més baix -->
 </div>
 
-<div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-  <img src="/uf11/inspector_code.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-</div>
+![Esquema d'herència](/uf11/inspector_code.jpg)
 
 </div>
 </div>
-
----
 
 ## 5.6. Make Controller
 
@@ -225,29 +196,24 @@ Per a fer-ho s’hi ha d'utilitzar l'opció **`Make Controller`** del menú cont
 
 </div>
 
-<div style="flex: 0.5; padding:10px;">
+<div style="flex: 0.7; padding:10px;">
 
 <div style="margin-top: 60px;"> <!-- Aquest div fa que tot quede més baix -->
 </div>
 
-<div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-  <img src="/uf11/make_controller.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-</div>
+![Esquema d'herència](/uf11/make_controller.jpg)
+
 <div style="margin-top: 20px;"> <!-- Aquest div fa que tot quede més baix -->
 </div>
-<div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-  <img src="/uf11/make_controller2.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-</div>
+
+![Esquema d'herència](/uf11/make_controller2.jpg)
 
 </div>
 </div>
 
 Cal recordar prémer la tecla Intro després d'escriure el nom de l'identificador o d'un mètode perquè es tinga en compte aquest nom en guardar el document FXML des de Scene Builder.
 
-<div style="display: flex; justify-content: center; gap: 0px;">
-  <div style="border: 6px solid rgb(240, 102, 61); width: 100%; text-align: center;">
-    <img src="/uf11/make_controller_codi.jpg" style="max-width: 100%; height: auto;" alt="Panell d'elements">
-  </div>
-</div>
+![Esquema d'herència](/uf11/make_controller_codi.jpg)
+
 
 ---

@@ -44,16 +44,14 @@ Fem doble clic sobre l’arxiu FXMLDocument.fxml i s’obrirà **Scene Builder**
 - En la zona centre posem un contenidor de quadricula GridPane al que li afegim una columna addicional (boto dret sobre la capçalera d’una columna) per a que quede una graella de 3x3.
 - En la primera fila posem 3 etiquetes (Hores, Minuts, Segons) i en les altres dues files posem 6 botons (baix de cada etiqueta posarem Avançar, Retrocedir).
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 50%; margin: 0 auto; text-align: center;">
-    <img src="/uf11/gridPane.jpg" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Rellotge](/uf11/gridPane.jpg)
+
 
 - Utilitzant la tecla Shift anem seleccionant totes les etiquetes i els botons per a posar-los propietats comuns al mateix temps. En **Inspector/Layout** farem que d’amplària s’ajusten al pare (*MAX_VALUE*) com férem amb el títol. A la lletra li donarem les característiques que vulguem i les centrarem.
 - En la zona inferior posem un contenidor de quadricula GirdPane de 2 files per 3 columnes. En la primera fila posem tres etiquetes o Label (Hora, Minut, Segon) i en la segona fila tres camps de text o TextField que contindran els valors variables dels camps. Donem propietats a tot, tal i com ho hem fet abans. Als TextField els podem posar un `Prompt Text` per a que es veja el aspecte que tindrà el contingut. A més, desmarquem la propietat Editable per a que no es puga escriure sobre aquests.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 50%; margin: 0 auto; text-align: center;">
-    <img src="/uf11/gridPane2.jpg" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Rellotge](/uf11/gridPane2.jpg)
+
 
 Anem al menú **Preview/Show Preview in Window** i per veure com ens ha quedat.
 
@@ -75,9 +73,7 @@ Anem a **Inspector/Control** i veurem que tots els controls tenen un **id** on e
 
 Des del menú superior de Scene Builder podem veure la llista de handlers que ens inclourà en el nostre controller. Seleccionarem **View/Show Sample Controller Skeleton** i veurem la llista de controls que tenim, que de moment estan buits.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 70%; margin: 0 auto; text-align: center;">
-    <img src="/uf11/FXMLDocument.jpg" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Rellotge](/uf11/FXMLDocument.jpg)
 
 Salvem les modificacions que hem fet des del menú File/Save. Al fer-ho podem  anar a NetBeans a l’arxiu FXMLDocument.fxml, polsem botó dret i triem Edit. Açò ens permetrà veure el codi FXML que s’ha generat.
 
@@ -89,9 +85,8 @@ En el següent diagrama podem veure l’estructura d’events, hi ha event de m�
 
 [https://docs.oracle.com/javase/8/javafx/api/toc.htm ](https://docs.oracle.com/javase/8/javafx/api/toc.htm)
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf11/estructuraEvents.jpg" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Rellotge](/uf11/estructuraEvents.jpg)
+
 
 Els controls sobre els que podem interactuar (en nostre cas els botons) necessiten identificar l’event front al que el nostre programa ha de respondre. Per tant, anem a **Inspector/Code** i a definir diversos events per al control que tenim seleccionat.
 
@@ -99,9 +94,7 @@ Per simplicitat en l’exemple (si ens desplacem cap a ball veurem que hi ha mol
 
 Seleccionarem **View/Show Sample Controller Skeleton** i veurem que ja apareixen aquests mètodes.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 70%; margin: 0 auto; text-align: center;">
-    <img src="/uf11/esqueletController.jpg" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Rellotge](/uf11/esqueletController.jpg)
 
 Finalment, marquem la casella **Full** per a que s’incloguen totes les importacions que hi ha al principi de l’esquelet i el void initialize() del final, i polsarem `Save As`. En proposarà el nom de l’arxiu del nostre Controller i el salvarem.
 
@@ -115,12 +108,20 @@ NOTA: El codi de la nostra classe Rellotge es troba més endavant, així que hau
 
 Tornant al nostre Controller, inclourem les instruccions d’instanciació de la nostra classe. Inclourem al principi per a localitzar-ho fàcilment:
 
+::: tabs
+== Java
+
 ```java
 // Definim una instància privada de la classe Rellotge 
 private Rellotge rellotge; 
 ```
 
+:::
+
 Ara creem un mètode per a actualitzar el valors dels camps en la vista. El posarem al final dels mètodes i abans de del mètode void initialize (), per a localitzar-lo fàcilment. Els mètodes <i>getxxx</i> formen part de la nostra classe, els mètodes <i>setText</i> ens els proporciona JavaFX.
+
+::: tabs
+== Java
 
 ```java
 // Mètode per a actualitzar la vista 
@@ -134,7 +135,12 @@ private void actualitzarVista(){
 }
 ```
 
+:::
+
 Dins del mètode void initialize (), al final d’aquest per a localitzar-ho fàcilment:
+
+::: tabs
+== Java
 
 ```java
 // Crear la instància de la classe Rellotge 
@@ -142,7 +148,12 @@ rellotge = new Rellotge();
 actualitzarVista();
 ```
 
+:::
+
 Per tancar aquest apartat ja sols ens queda codificar cadascun dels mètodes que apareixen en el controller. Completarem el mètode avançarHores (Activation Event) i la resta de mètodes es codificaran de forma similar.
+
+::: tabs
+== Java
 
 ```java
 void avançarHores(ActionEvent event) { 
@@ -151,15 +162,22 @@ void avançarHores(ActionEvent event) {
 }
 ```
 
+:::
+
 NOTA: A partir d’ara hem d’anar en compte si fem modificacions que afecten al Controller en Scene Builder ja que si salvem des de ací podem perdre totes les modificacions fetes des de NetBeans.
 
 ## Programa principal
 
 Si anem a la classe principal UF12Exemple01.java vorem la declaració:
 
+::: tabs
+== Java
+
 ```java
 public class UF12Exemple01 extends Application 
 ```
+
+:::
 
 Es a dir que la nostra classe hereta de la classe **Application** que és una classe de JavaFX.. D’aquesta classe s’hereta el mètode **start**.
 
@@ -171,11 +189,19 @@ El que estem fent és crear un objecte carregador (loader) a partir de la nostra
 
 Finalment, el programa mostra l’escenari:
 
+::: tabs
+== Java
+
 ```java
 stage.show()
 ```
 
+:::
+
 ## Classe Rellotge
+
+::: tabs
+== Java
 
 ```java
 package uf12exemple01; 
@@ -260,3 +286,5 @@ public class Rellotge {
   } 
 }
 ```
+
+:::

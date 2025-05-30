@@ -8,21 +8,9 @@
   - En **Projects** triarem *JavaFX FXML Application* i polsarem `Next`.
   - Anomenem el projecte i seleccionem la plataforma que hem creat.
 
-<div style="display: flex; justify-content: center; gap: 100px;">
+![Imatge 3](/uf11/nou_projecte.jpg)
 
-  <div style="border: 6px solid rgb(240, 102, 61); max-height: 100%; text-align: center;">
-    <img src="/uf11/nou_projecte.jpg" style="width: auto; height: 100%;" alt="Imatge 3">
-  </div>
-
-</div>
- 
-<div style="display: flex; justify-content: center; gap: 100px;">
-
-  <div style="border: 6px solid rgb(240, 102, 61); max-height: 100%; text-align: center;">
-    <img src="/uf11/nou_projecte_nom.jpg" style="width: auto; height: 100%;" alt="Imatge 3">
-  </div>
-
-</div>
+![Imatge 3](/uf11/nou_projecte_nom.jpg)
 
 - Una vegada tenim el projecte creat hem d’afegir la llibreria que hem creat de JavaFX.
   - Ens situarem en la carpeta Libraries i polsarem botó dret.
@@ -31,39 +19,13 @@
 
 Podem fer una prova executant la classe principal.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
+![Imatge 3](/uf11/add_library.jpg)
 
-  <div style="border: 6px solid rgb(240, 102, 61); max-height: 100%; text-align: center;">
-    <img src="/uf11/add_library.jpg" style="width: auto; height: 100%;" alt="Imatge 3">
-  </div>
+![Imatge 3](/uf11/add_javaFX.jpg)
 
-</div>
- 
-<div style="display: flex; justify-content: center; gap: 20px;">
+![Imatge 3](/uf11/run_file.jpg)
 
-  <div style="border: 6px solid rgb(240, 102, 61); max-height: 90%; text-align: center;">
-    <img src="/uf11/add_javaFX.jpg" style="width: auto; height: 100%;" alt="Imatge 3">
-  </div>
-
-</div>
- 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <div style="border: 6px solid rgb(240, 102, 61); max-height: 90%; text-align: center;">
-    <img src="/uf11/run_file.jpg" style="width: auto; height: 100%;" alt="Imatge 3">
-  </div>
-
-</div>
- 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <div style="border: 6px solid rgb(240, 102, 61); max-height: 50%; text-align: center;">
-    <img src="/uf11/run.jpg" style="width: auto; height: 100%;" alt="Imatge 3">
-  </div>
-
-</div>
-
----
+![Imatge 3](/uf11/run.jpg)
 
 ## 4.2. Estructura
 
@@ -79,5 +41,3 @@ Al controlador, utilitzant les classes de JavaFX, programarem els mecanismes mit
 - **PROGRAMA (programa.java)**:
 On desenvoluparem la nostra lògica.
 Utilitzarem els mètodes GET i SET dels objectes gràfics.
-
----

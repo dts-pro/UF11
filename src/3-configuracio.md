@@ -22,8 +22,6 @@
      • Linux: `usr/lib/jvm`
   4. Opcionalment, canviar-li el nom a `jdk-23-javafx` per a facilitar la identificació.
 
----
-
 ## 3.2. Instal·lar el plugin JavaFX
 
 Anirem a activar i configurar el plugin de JavaFX.
@@ -31,11 +29,7 @@ Anirem a activar i configurar el plugin de JavaFX.
 - Ens dirigim a `Tools` → `Options` → `Java` → `JavaFX`.
 - Seguirem els passos que ens va indicant.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf11/tools_javafx.jpg" style="max-width: 100%; height: auto;" alt="Esquema d'herència">
-</div>
-
----
+![Esquema d'herència](/uf11/tools_javafx.jpg)
 
 ## 3.3. Connectar Scene Builder
 
@@ -43,11 +37,7 @@ Quan polsem [Finish] el sistema ens mostrarà un avis indicant-nos que ha detect
 
 D’aquesta manera NetBeans detectarà on està l’executable i farà ús d’aquest en el moment de la edició.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf11/tools_javafx2.jpg" style="max-width: 100%; height: auto;" alt="Esquema d'herència">
-</div>
-
----
+![Esquema d'herència](/uf11/tools_javafx2.jpg)
 
 ## 3.4. Incloure la llibreria de JavaFX
 
@@ -56,46 +46,18 @@ El primer que haurem de fer és incloure la llibreria de JavaFX en les llibrerie
 - Ens dirigim a `Tools` → `Libraries` → `New Library`
 - Li donem nom Library Name: "JavaFX", acceptem i polsem `Add JAR/Folder`
 
-<div style="display: flex; justify-content: center; gap: 20px;">
+  ![Esquema d'herència](/uf11/Tools_Libraries.jpg)
 
-  <div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; text-align: center;">
-    <img src="/uf11/Tools_Libraries.jpg" style="max-width: 100%; height: auto;" alt="Imatge 1">
-  </div>
-
-</div>
- 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; text-align: center;">
-    <img src="/uf11/nom_javaFX.jpg" style="max-width: 100%; height: auto;" alt="Imatge 2">
-  </div>
-
-</div>
-
----
+  ![Esquema d'herència](/uf11/nom_javaFX.jpg)
 
 - Busquem la carpeta de JavaFX que hem descomprimit
 - Accedirem a la subcarpeta *lib*
 - Seleccionem els arxius (són tots .jar) i polsem `Add JAR/Folder`.
 - Polsem `OK`
 
-<div style="display: flex; justify-content: center; gap: 20px;">
+![Esquema d'herència](/uf11/ruta_lib.jpg)
 
-  <div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; text-align: center;">
-    <img src="/uf11/ruta_lib.jpg" style="max-width: 100%; height: auto;" alt="Imatge 1">
-  </div>
-
-</div>
- 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; text-align: center;">
-    <img src="/uf11/llibreries_importades.jpg" style="max-width: 100%; height: auto;" alt="Imatge 2">
-  </div>
-
-</div>
-
----
+![Esquema d'herència](/uf11/llibreries_importades.jpg)
 
 ## 3.5. Crear la plataforma
 
@@ -105,38 +67,10 @@ El primer que haurem de fer és incloure la llibreria de JavaFX en les llibrerie
 - Polsarem `AddPlatform`. En la següent pantalla no modificarem cap opció.
 - Finalment triarem la carpeta que hem descarregat *jdk-23.02-javafx*.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
+![Esquema d'herència](/uf11/java_platform_manager.jpg)
 
-  <div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; text-align: center;">
-    <img src="/uf11/java_platform_manager.jpg" style="max-width: 100%; height: auto;" alt="Imatge 1">
-  </div>
+![Esquema d'herència](/uf11/add_platform.jpg)
 
-</div>
- 
-<div style="display: flex; justify-content: center; gap: 20px;">
+![Esquema d'herència](/uf11/seleccionar_javafx_platform.jpg)
 
-  <div style="border: 6px solid rgb(240, 102, 61); max-height: 100%; text-align: center;">
-    <img src="/uf11/add_platform.jpg" style="width: auto; height: 100%;" alt="Imatge 2">
-  </div>
-
-</div>
- 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; text-align: center;">
-    <img src="/uf11/seleccionar_javafx_platform.jpg" style="max-width: 100%; height: auto;" alt="Imatge 3">
-  </div>
-
-</div>
-
-- Seleccionarem un nom significatiu per a la plataforma i finalitzarem la creació.
-
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; text-align: center;">
-    <img src="/uf11/nom_javafx_platform.jpg" style="max-width: 100%; height: auto;" alt="Imatge 3">
-  </div>
-
-</div>
-
----
+![Esquema d'herència](/uf11/nom_javafx_platform.jpg)

@@ -10,18 +10,12 @@ Implementa les aplicacions gràfiques seguint les especificacions de disseny i f
 
 ## Exercici 1 – Crea la següent interfície
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 70%; margin: 0 auto; text-align: center;">
-    <img src="/uf11/exercici1.jpg" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Exemple 1](/uf11/exercici1.jpg)
 
 ## Exercici 2 – Crea la següent interfície
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 70%; margin: 0 auto; text-align: center;">
-    <img src="/uf11/exercici2.jpg" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Exemple 2](/uf11/exercici2.jpg)
 
 ## Exercici 3 – Crea la següent interfície
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 85%; margin: 0 auto; text-align: center;">
-    <img src="/uf11/exercici3.jpg" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Exemple 2](/uf11/exercici3.jpg)
